@@ -1,0 +1,319 @@
+body 
+{
+    font-family: Arial, sans-serif, cursive;
+    margin: 0;
+    background-color: #E9C792;
+}
+
+/* Heading */
+.header
+{
+  top: 0px;
+  display: flex;
+  position: fixed;
+  align-items: center;
+  color: white;
+  gap: 20px;
+  z-index: 1000;
+  height: 70px;
+  background: linear-gradient(to bottom, #E9C792, #3360b3);
+  width: 100%;
+  font-family: cursive;
+
+img 
+{
+  width: 50px;
+  height: 50px;
+  margin-left: 80vh;
+}
+}
+
+/* Navigation Bar */
+nav 
+{
+  top: 0px;
+  margin-top: 70px;
+  height: 60px;
+  position: fixed;
+  width: 100%;
+  background-color: #3360b3;
+  color: white;
+  z-index: 1000;
+  box-shadow: 0 2px 5px black;
+  text-decoration: underline;
+}
+
+nav ul 
+{
+  margin: 0px;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav ul li 
+{
+  margin-top: 25px;
+  align-items: center;
+  display: inline;
+}
+nav ul li a 
+{
+  color: white;
+  text-decoration: none;
+}
+nav ul li a:hover
+{
+  background-color: #E9C792;
+}
+
+.main-page
+{
+  position: absolute;
+  width: 100%;
+  margin-top: 70px;
+}
+
+/*background image*/
+.background-container 
+{
+  top: 0;
+  margin-top: 40px;
+  width: 100%;
+  position: relative; 
+  text-align: center;
+  color: white;
+  height: 100vh;
+  background-image: url('https://images.pexels.com/photos/2952871/pexels-photo-2952871.jpeg?cs=srgb&dl=pexels-enginakyurt-2952871.jpg&fm=jpg'); /* Replace with your image URL */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text-overlay 
+{
+  position: relative;
+  padding: 20px;
+  border-radius: 10px;
+}
+  
+/* Hero Section */
+.hero 
+{
+  width: 100%;
+  margin-top: 0vh;
+  margin-bottom: 100vh;
+  margin-left: 0;
+  height: 130vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+.hero h1 
+{
+  margin-top: 100vh;
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+.hero a 
+{
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #0066cc;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.hero a:hover 
+{
+  background-color: #1b53d6;
+}
+
+.background-container2 
+{
+  margin-top: 20px;
+  width: 100%;
+  position: relative; 
+  text-align: center;
+  color: white;
+  height: 100vh;
+  background-image: url('https://static.vecteezy.com/system/resources/previews/047/006/606/non_2x/empty-wooden-table-and-blurred-modern-library-free-photo.jpg');
+  background-size: cover;
+  background-position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text-overlay2 
+{
+  position: relative;
+  padding: 20px;
+  border-radius: 10px;
+}
+/* Featured Books */
+.featured 
+{
+  height: 120vh;
+  margin-top: 20vh;
+  text-align: center;
+}
+.featured h2 
+{
+  margin-top: 30vh;
+  color:black;
+  margin-bottom: 20px;
+}
+.featured .bookcards 
+{
+  color: black;
+  background-size: contain;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+.bookcard 
+{
+  border: 1px solid black;
+  padding: 40px;
+  width: 200px;
+  text-align: left;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.bookcard:hover 
+{
+  transform: translate3d(-20px, -20px, -20px);
+}
+.bookcard img 
+{
+  margin-left: 0px;
+  width: 100%;
+  height: auto;
+}
+
+/* Categories */
+.categories 
+{
+  background-image: url('https://hips.hearstapps.com/hmg-prod/images/old-books-arranged-on-shelf-royalty-free-image-1572384534.jpg?crop=0.668xw:1.00xh;0,0&resize=640:');
+  margin-top: 20px;
+  padding: 50px 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+.categories h1
+{
+  margin-bottom: 20px;
+}
+.categories .category-list 
+{
+  color: black;
+  background-size: contain;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.category 
+{
+  border: 1px solid black;
+  background-color: #E9C792;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 25px;
+  color: black;
+  border-radius: 10px;
+  cursor: pointer;
+img 
+{
+  padding-left: 30px;
+  padding-right: 30px;
+}
+img:hover
+{
+  transform: scale(1.2);
+}
+h3
+{
+  color: black;
+}
+h3:hover
+{
+  transform: translateY(-3px);
+}
+}
+
+/* Reviews */
+.reviews 
+{
+  background-image: url("https://img.freepik.com/premium-vector/golden-confetti_41084-245.jpg?semt=ais_hybrid");
+  margin-top: 20px;
+  color: black;
+  width: 97.4%;
+  height: 70vh;
+  padding: 50px 20px;
+  text-align: center;
+}
+.reviews h2 
+{
+  margin-bottom: 20px;
+}
+.review-card 
+{
+  
+  border: 1px solid black;
+  width: 70%;
+  padding: 20px;
+  margin-top: 20px;
+  margin-left: 25vh;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.review-form input,
+.review-form textarea 
+{
+  width: 90%;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.review-form button 
+{
+  align-content: center;
+  margin: 20px;
+  padding: 10px 20px;
+  background-color: #0066cc;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Footer */
+footer 
+{
+  padding: 5px;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+}
+footer h4
+{
+  margin-top: 0px;
+  display: inline-flex;
+  margin-right: 10px;
+}
+footer a 
+{
+  color: white;
+  text-decoration: underline;
+}
+footer h5
+{
+  margin-top: 0px;
+}
